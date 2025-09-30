@@ -1,7 +1,4 @@
-body{background-color: pink; 
-text-align: center;
-margin: 16px auto;
-} 
+body{background-color: pink;} 
 
 
 .food {
@@ -14,9 +11,6 @@ h1{
     color: black;
     background-color: bisque;
     border: solid 2px black;
-    margin: 16px auto;
-    width: 20%;
-    padding: 8px 4px;
 }
 
 ul li {
@@ -24,8 +18,7 @@ ul li {
     text-align: center;
 line-height: 48px;
 color: antiquewhite;
-width: 30%;
-margin: 16px auto;
+
 }
 
 /* list-style-type: none;  removes list bullet points */
@@ -47,10 +40,7 @@ color: azure;
 
 
 p {
-    margin: 10px auto;
     text-align: center;
-    width: 50%;
-
 }
 
 
