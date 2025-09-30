@@ -11,12 +11,17 @@ h1 {
 img{
 display: block;
 margin: 0 auto;
-
 }
 
+a:link {
+font-weight: bold;
+color: black;
+background-color: bisque;
+}
 
-
-
+a:visited {
+    color: darkslateblue;
+}
 
 
 
