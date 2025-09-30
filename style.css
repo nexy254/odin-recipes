@@ -1,4 +1,4 @@
-body{background-color: #1f1624} 
+body{background-color: pink} 
 
 
 .food {
@@ -8,7 +8,9 @@ font-size: 24px;
 
 h1{
     text-align: center;
-    color: antiquewhite;
+    color: black;
+    background-color: bisque;
+    border: solid 2px black;
 }
 
 ul li{
@@ -22,12 +24,12 @@ color: antiquewhite;
 
 a:link {
 font-weight: bold;
-color: antiquewhite;
+color: black;
 }
 
 
 a:visited {
-    color:lightseagreen;
+    color: gray;
 }
 
 a:hover {
