@@ -12,17 +12,27 @@ h1{
 }
 
 ul li{
+    list-style-type: none;
+    text-align: center;
 line-height: 48px;
 color: antiquewhite;
 }
 
+/* list-style-type: none;  removes list bullet points */
+
+a:link {
+font-weight: bold;
+color: antiquewhite;
+}
 
 
+a:visited {
+    color:lightseagreen;
+}
 
-
-
-
-
+a:hover {
+color: azure;
+}
 
 
 
