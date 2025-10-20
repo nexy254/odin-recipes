@@ -1,4 +1,6 @@
-body{background-color: pink;} 
+body{
+    background-color: pink;
+} 
 
 
 .food {
@@ -39,8 +41,13 @@ color: azure;
 
 
 
-p {
+.context {
+    box-sizing: border-box;
     text-align: center;
+    width: 300px;
+    margin: 0px 0px 0px 825px;
+    border: 5px bisque outset;
+    border-radius: 10px;
 }
 
 
