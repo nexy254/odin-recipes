@@ -45,7 +45,7 @@ color: azure;
     box-sizing: border-box;
     text-align: center;
     width: 300px;
-    margin: 0px 0px 0px 825px;
+    margin: 0px auto;
     border: 5px bisque outset;
     border-radius: 10px;
 }
