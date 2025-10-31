@@ -1,29 +1,47 @@
 body {
+    font-family: monospace;
     background-color: pink;
+    box-sizing: border-box;
 }
 
 h1 {
-    text-align: center;
-    background-color: bisque;
-    border: solid 2px black;
+    display: inline-block;
+    text-align: left;
+    background-color: thistle;
+    border: solid 2px bisque;
+    border-style: outset;
 }
 
 img{
 display: block;
 margin: 0 auto;
+border: 5px bisque outset;
 }
 
 a:link {
 font-weight: bold;
 color: black;
-background-color: bisque;
+background-color: thistle;
+}
+
+.home-click {
+    background-color: thistle;
+    border: solid 2px bisque;
+    border-style: outset;
 }
 
 a:visited {
     color: darkslateblue;
 }
 
-
+.content-box {
+    box-sizing: border-box;
+    border: 5px bisque outset;
+    background-color: thistle;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 5px;
+}
 
 
 
