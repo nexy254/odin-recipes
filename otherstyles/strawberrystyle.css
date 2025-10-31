@@ -1,11 +1,15 @@
 body {
+    font-family: monospace;
     background-color: pink;
+    box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
-    background-color: bisque;
-    border: solid 2px black;
+h1 { 
+    border-style: outset;
+    display: inline-block;
+    text-align: left;
+    background-color: thistle;
+    border: solid 2px bisque;
 }
 
 img{
