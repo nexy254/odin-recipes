@@ -16,6 +16,10 @@ body {
     flex: 1;
 }
 
+.cookie-box {
+    margin-top: 10rem;
+}
+
 .cookie-link, .zeppole-link, .strawberry-shake-link {
     font-size: 24px;
     text-align: center;
