@@ -1,37 +1,38 @@
-body{
+body {
     background-color: pink;
     font-family: monospace;
     box-sizing: border-box;
 } 
 
-
-.food {
-    font-size: 24px;
+.cookie-box, .zeppole-box, .strawberry-shake-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: thistle;
+    border: solid 5px bisque;
+    height: 5rem;
+    margin: auto 55rem 1rem;
+    border-style: outset;
+    flex: 1;
 }
 
+.cookie-link, .zeppole-link, .strawberry-shake-link {
+    font-size: 24px;
+    text-align: center;
+}
+
+.header-box {
+    display: inline-flex;
+    flex: 1;
+    justify-content: start;
+    background-color: thistle;
+    border: solid 2px bisque;
+    border-style: outset;
+}
 
 h1{
-    text-align: left;
     color: black;
     background-color: thistle;
-    border: 2px bisque outset;
-    display: inline-block;
-}
-
-.food-box {
-    border: 5px outset;
-    border-color: bisque;
-    margin-top: 100px;
-    background-color: thistle;
-}
-
-ul li {
-    list-style-type: none;
-    margin: 0px auto;
-    text-align: center;
-    line-height: 48px;
-    color: antiquewhite;
-
 }
 
 /* list-style-type: none;  removes list bullet points */
@@ -50,16 +51,20 @@ a:hover {
     color: azure;
 }
 
-
+.context-box {
+    display: flex
+    flex 1;
+    justify-content: center;
+    background-color: thistle;
+    border: solid 5px bisque;
+    border-style: outset;
+    margin: 25rem 58rem;
+}
 
 .context {
     background-color: thistle;
-    box-sizing: border-box;
     text-align: center;
-    width: 300px;
-    margin: 500px auto;
-    border: 5px bisque outset;
-    border-radius: 10px;
+    width: auto;
 }
 
 
