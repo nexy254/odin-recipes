@@ -6,6 +6,7 @@ body {
 
 .cookie-box, .zeppole-box, .strawberry-shake-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: column;
     background-color: thistle;
