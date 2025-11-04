@@ -29,7 +29,7 @@ body {
 .header-box {
     display: inline-flex;
     flex: 1;
-    justify-content: start;
+    justify-content: flex-start;
     background-color: thistle;
     border: solid 2px bisque;
     border-style: outset;
