@@ -3,6 +3,7 @@ body {
     background-color: lightskyblue;
     display: flex;
     flex-wrap: wrap;
+    flex-shrink: 1;
     overflow: scroll;
     font-family: monospace;
     color: #3E424B;
